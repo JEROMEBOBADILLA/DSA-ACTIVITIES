@@ -10,7 +10,7 @@ void traverseArray(){
     cout << "Showing elements in my array\n";
     for(int i= 0; i< maxElem; i++){
         cout<< to_string(myArray[i]) + " | ";
-    }
+    }z
 }
 
 string insertAtTheEnd(int num){
@@ -76,7 +76,6 @@ int main(){
  insertAtTheBeginning(19);
 
 traverseArray();
-
 
 
     
